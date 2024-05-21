@@ -1,4 +1,4 @@
-If you need more functinoality or want to report bugs, please contact hello@schleifenbaum.ch
+If you need more functionality or want to report bugs, please contact hello@schleifenbaum.ch
 
 Changelog
 
