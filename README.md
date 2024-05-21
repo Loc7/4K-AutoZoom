@@ -1,6 +1,6 @@
 4K-AutoZoom sets the zoom level of a tab. 200% if it was maximized, 100% if it was sized back to a FHD window (or smaller).
 
-This extension is a life-saver for people who use 4K-screens with 4 FHD windows and occasinally need to maximize a window to read/see stuff in detail.
+This extension is a life-saver for people who use 4K-screens with 4 FHD windows and occasionally need to maximize a window to read/see stuff in detail.
 
 If you need more functionality, please contact me at hello@schleifenbaum.ch or use the GitHub-features.
 
