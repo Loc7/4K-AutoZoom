@@ -1,11 +1,19 @@
 chrome.runtime.onMessage.addListener((message) => {
   if (message.type === "setZoom") {
-      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-        try {
-          chrome.tabs.setZoom(tabs[0].id, message.zoomLevel);
- 
-        } catch {}
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      chrome.tabs.setZoom(tabs[0].id, message.zoomLevel);
+    });
+  }
+});
+
+chrome.commands.onCommand.addListener((command) => {
+  if (command === "hotkeyTrigger") {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      chrome.tabs.getZoom(tabs[0].id, (currentZoom) => {
+        const zoomLevel = currentZoom === 1 ? 1.5 : 1;
+        chrome.tabs.sendMessage(tabs[0].id, { type: "hotkeyTrigger", zoomLevel: zoomLevel });
       });
+    });
   }
 });
 

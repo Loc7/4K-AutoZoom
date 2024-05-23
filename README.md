@@ -6,6 +6,12 @@ If you need more functionality, please contact me at hello@schleifenbaum.ch or u
 
 Changelog
 
+V1.6, 23.05.24
+- Added keyboard shortcut CTRL + UP to toggle between 150% and 100% zoom manually (intended mainly for FHD windows)
+
+V1.5, 21.05.24
+- Removed CSS width/height from popup iframe to prevent clipping on some websites
+
 V1.4, 21.05.24
 - Refactored code to fully use the Chrome message runtime
 - Refactored code to trigger popup only on true window width resize events
