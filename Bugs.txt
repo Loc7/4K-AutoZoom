@@ -1,0 +1,3 @@
+
+Bugs 4K Autozoom
+- Grösse eines anderen Tabs wird auch geändert, wenn ein grosses Fenster mit der gleichen Domain geöffnet wird -> Window activate event einbauen?
