@@ -40,7 +40,7 @@
                 "default": "Ctrl+Up",
                 "mac": "Command+Up"
             },
-            "description": "Toogle zoom level between 100% and 150% when CTRL + UP is pressed"
+            "description": "Toogle zoom level between 100% and 200%."
         }
     }
 }
