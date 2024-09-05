@@ -3,7 +3,7 @@
 This extension is a life-saver for people who use 4K screens with 4 FHD windows and occasionally need to maximize a window to read/see stuff in detail.
 
 Shortcut:
-CTRL + UP to to toggle between 150% and 100% zoom manually (intended mainly for FHD windows).
+CTRL + UP to to toggle between 200% and 100% zoom manually (intended mainly for FHD windows).
 
 This extension works in conjunction with the extension "Zoom Per Tab" by kthxbye.
 
