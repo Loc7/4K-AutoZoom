@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "4K-AutoZoom",
-    "version": "1.6",
+    "version": "1.7",
     "description": "4K-AutoZoom sets the zoom level of a tab. 200% if it was maximized, 100% if it was sized back to a FHD window (or smaller).",
     "content_scripts": [
         {
